@@ -50,3 +50,7 @@ implementation of shadcn
 here i have used pnpm , so instead of npx command use - (pnpm shadcn-ui@latest init)
 - typescript
 its already installed while creating the project
+
+before authentication , generate the types for the table
+- npx supabase login
+- npx supabase gen types typescript --project-id myjpgsngjxogvbrshija --schema public > types/supabase.ts
